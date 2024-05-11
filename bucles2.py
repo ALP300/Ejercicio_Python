@@ -1,5 +1,9 @@
-sumaT=0
-for i in range(1,11): #1 2 3 4 5 6 7 8 9 10
-    sumaT+=i
-    
-print("La suma de los 10 primeros números es: ",sumaT)
+palabra= input("Introduce una palabra: ") #Brinner
+vocales=['a','e','i','o','u']
+for vocal in vocales:
+    repeticiones=0
+    for letra in palabra:
+        if letra==vocal:
+            repeticiones+=1
+        
+    print("La vocal "+vocal+" aparece: "+str(repeticiones)+"veces")
