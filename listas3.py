@@ -15,7 +15,7 @@ for asignatura in asignaturas:
     nota= input("¿Qué nota has sacado en "+asignatura+"?:  ") #20
     notas.append(nota)
     
-for i in range(len(asignaturas)):  #0,1,2,3,4
-    print("En "+asignaturas[i]+ " has sacado: "+notas[i])
+for i in range(len(asignaturas)):
+    print("En la asignatura "+ asignaturas[i]+"has sacado : "+notas[i])
 
     
